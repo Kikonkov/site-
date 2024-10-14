@@ -1,0 +1,947 @@
+:root{
+  --yellow: rgba(255, 153, 0, 1);
+  --yellow2: rgba(255, 184, 77, 1);
+  --orange: rgba(225, 103, 14, 1);
+  --white: rgba(255, 255, 255, 1);
+  --white2: rgba(202, 202, 202, 1);
+  --white3: rgba(241, 241, 241, 1);
+  --grey: rgba(65, 65, 65, 1);
+  --grey2: rgba(102, 102, 102, 1);
+  --black: rgba(0, 0, 0, 1);
+  --transparent: rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 1770px){
+  .container{
+    padding: 0 50px;
+  }
+
+  /* header */
+
+  .header-left{
+    min-width: 150px;
+    margin-right: 55px;
+  }
+
+  .nav-link:last-child{
+    white-space: nowrap;
+  }
+
+  /* hero */
+
+  .hero-text{
+    max-width: 834px;
+  }
+
+  /* about "О нас" */
+
+
+  .about-bottom__cards{
+    flex-direction: column;
+  }
+
+
+  .about-bottom__left-card {
+    max-width: 1082px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .left-card__text{
+    margin-right: 370px;
+  }
+
+  .about-bottom__right-cards{
+    max-width: 1082px;
+  }
+
+  .right-card{
+    max-width: 1082px;
+  }
+
+  /* footer */
+
+  .footer-content{
+    justify-content: space-between;
+  }
+
+  .footer-left{
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .footer-center{
+    margin: 0;
+  }
+
+  .footer-right{
+    display: none;
+  }
+}
+
+@media (max-width: 1024px){
+
+  /* header */
+
+  .header-content{
+    padding-top: 26px;
+    margin-bottom: 45px;
+  }
+
+  .header-left{
+    max-width: 150px;
+    margin-right: 105px;
+  }
+
+  .nav-item{
+    align-content: center;
+    margin-right: 60px;
+  }
+
+  .nav-item:last-child{
+    margin-right: 105px;
+  }
+
+  /* hero */
+
+  .hero-content{
+    padding-left: 76px;
+    padding-top: 159px;
+    padding-right: 77px;
+    padding-bottom: 159px;
+  }
+
+  .hero-wrapper{
+    margin-bottom: 38px;
+  }
+
+  .hero-heading{
+    font-size: 60px;
+    line-height: 73.14px;
+    margin-bottom: 16px;
+  }
+
+  .hero-text{
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-bottom: 59px;
+  }
+
+  .hero-button__text{
+    padding: 25px 36px;
+    letter-spacing: 0.6px;
+  }
+
+  /* about "О нас" */
+
+  .about-content{
+    margin-bottom: 77px;
+  }
+
+  .about-top__text{
+    max-width: 924px;
+    margin-bottom: 59px;
+  }
+
+  .about-bottom__cards{
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .about-bottom__left-card {
+    max-width: 924px;
+    min-height: 640px;
+    margin: 0;
+    margin-bottom: 32px;
+  }
+
+  .left-card__text{
+    margin-right: 212px;
+  }
+
+  .right-card__content{
+    margin-right: 55px;
+  }
+
+  /* how "Этапы" */
+
+  .how-left__content{
+    margin-right: 50px;
+  }
+
+  .how-buttons{
+    padding-top: 20px;
+  }
+
+  .how-content{
+    margin-bottom: 80px;
+  }
+
+  .how-left__text{
+    min-width: 437px;
+    min-height: 576px;
+    padding-top: 8px;
+  }
+
+  /* faq "Вопросы" */
+
+  .faq-list{
+    flex-direction: column;
+  }
+
+  .faq-link{
+    width: auto;
+    padding-bottom: 65px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .faq-content{
+    margin-bottom: 80px;
+  }
+
+  .faq-link:last-child{
+    margin: 0;
+  }
+
+  /* footer */
+
+  .footer-left{
+    margin-right: 130px;
+  }
+
+  .footer-right{
+    display: none;
+  }
+
+  .footer-center{
+    margin: 0;
+  }
+
+  .form-input{
+    max-width: 542px;
+  }
+
+  .footer-center__textarea{
+    max-width: 542px;
+  }
+
+  .form-button{
+    padding: 19px 42px;
+  }
+
+}
+
+@media (max-width: 1023px){
+
+  /* header */
+
+  .header-left{
+    min-width: 110px;
+    margin-right: 44px;
+  }
+
+  .nav-item{
+    margin-right: 40px;
+    font-size: 16px;
+    line-height: 19.5px;
+  }
+
+  .nav-item:last-child{
+    margin-right: 43px;
+    white-space: nowrap;
+  }
+
+  /* hero */
+
+  .hero-content{
+    padding: 160px 40px;
+  }
+
+  .hero-heading{
+    font-size: 50px;
+    line-height: 60.95px;
+  }
+
+  .hero-text{
+    margin: 0;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21.94px;
+  }
+
+  /* about "О нас" */
+
+  .about-bottom__right-cards{
+    width: 100%;
+  }
+
+
+  .right-card::before{
+    width: 114px;
+    height: 137px;
+    margin-right: 16px;
+    background-position-y: 38px;
+    background-position: bottom center;
+  }
+
+  .right-card:last-child::before{
+    width: 114px;
+    height: 137px;
+    margin-right: 16px;
+    background-position-y: 38px;
+  }
+
+  /* how "Этапы" */
+
+  .how-left{
+    flex-direction: column-reverse;
+  }
+
+  .how-left__text{
+    max-width: 923px;
+    min-height: auto;
+  }
+
+  .how-left__content{
+    margin: 0;
+  }
+
+  .how-left::after{
+    margin-bottom: 38px;
+  }
+
+  .how-left * {
+    width: 100%;
+  }
+
+  .how-content:before {
+    width: 100%;
+    min-height: 284px;
+    bottom: auto;
+  }
+
+  .how-content{
+    padding-top: 322px;
+  }
+
+  /* footer */
+
+  .footer-content{
+    flex-direction: column-reverse;
+  }
+
+  .footer-left__nav{
+    display: none;
+  }
+
+  .footer-center{
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 838px){
+  .left-card__text{
+    margin-right: 26px;
+  }
+}
+
+@media (max-width: 768px){
+
+  /* header */
+
+  .header-content{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 40px;
+  }
+
+  .header-left{
+    width: 110px;
+    height: 35px;
+    margin-right: 0;
+  }
+
+  .nav-item{
+    margin-right: 26px;
+  }
+
+  .nav-item:last-child{
+    margin-right: 43px;
+  }
+
+  .nav-link{
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0;
+  }
+
+  /* hero */
+
+  .hero-text{
+    font-size: 18px;
+    line-height: 21.94px;
+  }
+
+
+  /* about "О нас" */
+
+  .about-top__text{
+    margin-bottom: 53px;
+    color: var(--grey);
+  }
+
+  .about-bottom__left-card{
+    min-height: 650px;
+    border-radius: 23px;
+  }
+
+  .about-bottom__right-cards{
+    min-height: auto;
+  }
+
+  .left-card{
+    padding-left: 40px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-right: 40px;
+  }
+
+  .left-card__text{
+    margin-right: auto;
+  }
+
+  .right-card::before{
+    margin-right: 19px;
+  }
+
+  .right-card:last-child::before{
+    margin-right: 19px;
+  }
+
+  .right-card{
+    min-height: auto;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+    padding-bottom: 34px;
+    margin-bottom: 32px;
+  }
+
+  .right-card__content{
+    max-height: 165px;
+    margin-right: 0;
+  }
+
+
+
+  /* how "Этапы" */
+
+  .how-left{
+    margin-bottom: 14px;
+  }
+
+  .how-left__text{
+    min-height: auto;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .how-buttons{
+    padding-top: 0;
+  }
+
+  /* faq "Вопросы */
+
+  .faq-link{
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 40px;
+  }
+
+  .faq-content{
+    margin-bottom: 76px;
+  }
+
+
+  /* footer */
+
+
+  .form-input{
+    max-width: 540px;
+  }
+
+  .footer-center__textarea{
+    max-width: 540px;
+  }
+
+  .form-button{
+    padding: 20px 42px;
+  }
+
+
+}
+
+@media (max-width: 767px){
+
+  .heading-3{
+    font-weight: 500;
+  }
+
+  /* header */
+
+  .header-content{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header-left{
+    margin: 0;
+  }
+
+  .header-center{
+    width: 100%;
+    padding-top: 20px;
+    overflow: scroll;
+    order: 1;
+  }
+
+  /* hero */
+
+  .hero-heading{
+    font-size: 50px;
+    line-height: 60.95px;
+  }
+
+  .hero-button__text{
+    letter-spacing: 0;
+  }
+
+  /* about "О нас" */
+
+  .about-content{
+    margin-bottom: 32px;
+  }
+
+  .about-top__text{
+    margin-bottom: 14px;
+  }
+
+  .about-bottom{
+    position: relative;
+  }
+
+  .about-bottom__left-card{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 0;
+    padding-top: 350px;
+    background-image: none;
+  }
+
+  .left-card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/main/Rectangle2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 32px;
+  }
+
+  .left-card{
+    width: 100%;
+    min-height: 200px;
+    flex-direction: column;
+    align-self: end;
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+  .left-card__text{
+    max-width: 616px;
+    color: var(--black);
+    padding-top: 8px;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .left-card__button-text{
+    color: var(--yellow);
+    padding: 12.31px 44px;
+  }
+
+  .about-bottom__right-cards{
+    width: 100%;
+  }
+
+  .right-card::before{
+    margin: 0;
+    margin-bottom: 12px;
+  }
+
+  .right-card__text{
+    max-width: 667px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .right-card__content{
+    max-width: 667px;
+  }
+
+  .right-card{
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 32px;
+    padding: 0;
+    border: none;
+    background-color: var(--white3);
+  }
+
+  /* how "Этапы" */
+
+  .how-left::after{
+    width: auto;
+    height: 284px;
+  }
+
+  /* faq "Вопросы */
+
+  .faq-link{
+    flex-direction: column;
+    padding: 0;
+    border: none;
+    background-color: var(--white3);
+  }
+
+  /* footer */
+
+  .form-input{
+    width: auto;
+  }
+
+  .footer-center__textarea{
+    width: auto;
+  }
+
+  .form-bottom{
+    max-width: 280px;
+    flex-direction: column;
+  }
+
+  .form-button{
+    margin-right: 0;
+    margin-bottom: 11px;
+  }
+
+  .footer-center{
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 16px;
+  }
+
+  .footer-label{
+    margin-bottom: 25px;
+  }
+
+  .footer-center__heading-2{
+    font-size: 44px;
+  }
+
+}
+
+@media (max-width: 500px){
+
+  .container{
+    padding: 0 15px;
+  }
+
+  .heading-2{
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-bottom: 17px;
+  }
+
+  .heading-3{
+    font-size: 18px;
+    line-height: 21.94px;
+  }
+
+
+  /* header */
+
+  .header-content{
+    margin-bottom: 45px;
+  }
+
+  .nav-item:last-child{
+    white-space: nowrap;
+  }
+
+  /* hero */
+
+  .hero-heading{
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-bottom: 6px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .hero-text{
+    font-size: 12px;
+    line-height: 14.63px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .hero-button{
+    align-self: center;
+  }
+
+  .hero-button__text{
+    padding: 13px 28px;
+    font-size: 12px;
+    line-height: 14.63px;
+    text-align: center;
+  }
+
+  .hero-wrapper{
+    border-radius: 16px;
+    margin-bottom: 60px;
+  }
+
+  .hero-content{
+    padding: 60px 22px;
+    border-radius: 16px;
+  }
+
+  /* about "О нас" */
+
+  .about-top__heading-2{
+    font-size: 24px;
+    line-height: 29.26px;
+  }
+
+  .about-bottom__left-card{
+    padding-top: 200px;
+  }
+
+  .left-card::before{
+    height: 200px;
+    border-radius: 16px;
+  }
+
+  .left-card__button-text{
+    padding: 12.31px 42px;
+  }
+
+  .about-bottom__left-card{
+    margin-bottom: 22px;
+  }
+
+  .about-content{
+    margin-bottom: 110px;
+  }
+
+  .right-card{
+    margin: 0;
+    margin-bottom: 53px;
+  }
+
+  .right-card::before{
+    width: 64px;
+    height: 49px;
+  }
+
+  .about-top__text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about-bottom__right-cards{
+    min-height: 506px;
+  }
+
+  .left-card__text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .left-card__button-text{
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+
+  .right-card{
+    min-height: auto;
+  }
+
+  .right-card::before{
+    width: 64px;
+    height: 49px;
+    margin-bottom: 16px;
+  }
+
+  .right-card:last-child::before{
+    width: 64px;
+    height: 49px;
+    margin-right: 0;
+    background-position-y: 0;
+  }
+
+  .right-card__text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* how "Этапы" */
+
+  .how-left__text{
+    min-width: 0;
+    max-width: 437px;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .how-button1{
+    width: 55%;
+    padding: 12.31px 44px;
+    margin-right: 10px;
+    font-size: 12px;
+    line-height: 14.63px;
+    border-radius: 8px;
+  }
+
+  .how-button2{
+    width: 45%;
+    padding: 12px 32px;
+    font-size: 12px;
+    line-height: 14.63px;
+    border-radius: 8px;
+  }
+
+  .how-left{
+    margin-bottom: 20px;
+  }
+
+  .how-content:before{
+    min-height: 160px;
+    border-radius: 16px;
+  }
+
+  .how-content{
+    padding-top: 184px;
+  }
+
+  .how-content{
+    margin-bottom: 60px;
+  }
+
+  /* faq "Вопросы */
+
+  .faq-text{
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .faq-content{
+    margin-bottom: 55px;
+  }
+
+  /* footer */
+
+  .footer-center__heading-2{
+    font-size: 24px;
+    line-height: 29.26px;
+    margin-bottom: 20px;
+  }
+
+  .form-input{
+    padding: 20px 14px;
+  }
+
+  .footer-center__textarea{
+    padding: 20px 14px;
+    margin-bottom: 25px;
+  }
+
+  .form-bottom{
+    max-width: 470px;
+    flex-direction: column;
+  }
+
+  .form-button{
+    margin-bottom: 11px;
+  }
+
+  .footer-logo{
+    width: 224px;
+    height: 72px;
+  }
+
+  .footer-left{
+    max-width: 470px;
+    margin: 0;
+  }
+
+  .footer-label{
+    margin-bottom: 25px;
+  }
+
+  .footer-left{
+    align-items: center;
+  }
+
+  .footer-center{
+    border-bottom: 1px solid var(--grey);
+    margin-bottom: 16px;
+  }
+
+  .footer-logo{
+    width: 131px;
+    height: 42px;
+  }
+
+  .social-media{
+    margin-right: 14px;
+  }
+
+  .social-media svg{
+    width: 40px;
+    height: 40px;
+  }
+
+  .form-button{
+    max-width: none;
+    width: auto;
+    align-self: center;
+    padding-left: 19px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 19px;
+    font-size: 12px;
+    line-height: 14.63px;
+    border-radius: 8px;
+  }
+
+  .footer-content{
+    padding-top: 29px;
+  }
+}
+
+@media (max-width: 320px){
+
+
+}
